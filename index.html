@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Firebase Rules Generator</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Firebase Rules Generator</h1>
+    <form id="rules-form">
+      <div class="folder-container" id="folder-container">
+        <div class="folder-input">
+          <label for="folder-1">Folder Name:</label>
+          <input type="text" id="folder-1" name="folder[]" placeholder="Enter folder name">
+        </div>
+      </div>
+      <button type="button" id="add-folder" class="btn">+ Add Folder</button>
+      <button type="button" id="generate-rules" class="btn">Generate Rules</button>
+    </form>
+    <div class="output-container">
+      <h2>Generated Rules</h2>
+      <pre id="output"></pre>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
