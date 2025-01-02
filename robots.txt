@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://mr-risov.github.io/firebase-database-security/sitemap.xml
